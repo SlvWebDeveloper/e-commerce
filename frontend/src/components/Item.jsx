@@ -2,9 +2,9 @@ import Image from 'next/image';
 
 const Item = ( { name, image, old_price, new_price } ) => {
   return (
-    <div className='w-[300px] lg:w-[330px]  h-[500px] '>
-      <div className='w-[300px]  lg:w-[330px] '>
-        <Image src={ image } alt={ name } className='h-[400px]' />
+    <div className='w-[300px] lg:w-[300px]  h-[500px] '>
+      <div className='w-[300px]  lg:w-[300px] '>
+        <Image src={ image } alt={ name } className='h-[380px]' />
       </div>
       <div className="flex flex-col">
         <h2 className='my-2 font-medium'>{ name }</h2>

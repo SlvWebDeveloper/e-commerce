@@ -9,7 +9,7 @@ const Footer = () => {
   const { sidebarIsOpen } = useSelector( state => state.shopSlice );
 
   return (
-    <div className={ sidebarIsOpen ? 'hidden' : "mt-10 pb-6 w-[80%] mx-auto" }>
+    <div className={ sidebarIsOpen ? 'hidden' : "mt-10 pb-6 w-[90%] mx-auto" }>
       <div className='flex flex-col items-center gap-6'>
         {/* footer logo */ }
         <div className='flex items-center gap-3'>

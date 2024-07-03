@@ -2,7 +2,7 @@ import Image from 'next/image';
 import exclusive_image from '../../assets/exclusive_image.png';
 const BannerExclusive = () => {
   return (
-    <div className='md:w-[80%] mx-auto flex justify-between items-center banner-gradient mt-10 py-10'>
+    <div className='md:w-[90%] mx-auto flex justify-between items-center banner-gradient mt-10 py-10'>
       {/* section left */ }
       <div className='md:flex-1 flex flex-col text-center   mx-auto gap-4'>
         <div className='text-4xl md:text-6xl font-bold'>

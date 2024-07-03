@@ -6,7 +6,7 @@ import hero_image from '../../assets/hero_image.png';
 const BannerNewCollections = () => {
   return (
     <div className='banner-gradient p-20'>
-      <div className='flex flex-col items-center lg:flex-row md:w-[80%] md:mx-auto'>
+      <div className='flex flex-col items-center lg:flex-row md:w-[90%] md:mx-auto'>
 
         {/* banner section left */ }
         <div className='flex flex-1 flex-col justify-center  gap-8 '>

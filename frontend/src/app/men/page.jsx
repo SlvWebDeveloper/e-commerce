@@ -8,7 +8,7 @@ import banner_men from '../../assets/banner_mens.png';
 
 const page = () => {
   return (
-    <div className='w-[80%] mx-auto mt-12'>
+    <div className='w-[90%] mx-auto mt-12'>
       <div className=''>
         <Image src={ banner_men } alt='banner men' />
       </div>
