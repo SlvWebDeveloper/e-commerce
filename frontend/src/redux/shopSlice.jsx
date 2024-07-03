@@ -1,7 +1,7 @@
 import { createSlice } from '@reduxjs/toolkit';
 
 const initialState = {
-  sidebarIsOpen: false
+  sidebarIsOpen: false,
 };
 
 export const shopSlice = createSlice( {
@@ -13,7 +13,7 @@ export const shopSlice = createSlice( {
     },
     closeSidebar: state => {
       state.sidebarIsOpen = false;
-    }
+    },
   }
 } );
 

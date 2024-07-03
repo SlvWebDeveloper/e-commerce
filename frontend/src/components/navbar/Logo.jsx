@@ -17,24 +17,24 @@ const Logo = () => {
 
 
   return (
-    <div className='flex justify-between items-center'>
+    <div className='w-[100%] md:w-auto flex justify-between items-center'>
       <div className='flex items-center gap-2 font-bold text-2xl'>
-        <Image src={ logo } width={ 40 } />
+        <Image src={ logo } width={ 40 } alt='logo' />
         <h2 className='hidden md:block'>SHOP EASY</h2>
       </div>
-      <div className='md:hidden flex gap-6'>
+      <div className='md:hidden flex gap-6 '>
         <Link href={ '/login' }>
           <button className='flex items-center justify-center'>
-            <FaRegUser className='text-2xl' />
+            <FaRegUser className='text-xl' />
           </button>
         </Link>
         <Link href={ '/cart' }>
           <button className='flex items-center justify-center'>
-            <FiShoppingCart className='text-2xl' />
+            <FiShoppingCart className='text-xl' />
           </button>
         </Link>
         <button className='flex items-center justify-center' onClick={ handleOpenSidebar }>
-          <GiHamburgerMenu className='text-3xl' />
+          <GiHamburgerMenu className='text-2xl' />
         </button>
       </div>
     </div>

@@ -1,11 +1,15 @@
 import Footer from '@/components/footer/Footer';
 import Navbar from '@/components/navbar/Navbar';
 import Sidebar from '@/components/sidebar/Sidebar';
-import { Inter } from "next/font/google";
+import { Roboto } from 'next/font/google';
 import ReduxProvider from './Provider';
 import "./globals.css";
 
-const inter = Inter( { subsets: ["latin"] } );
+const roboto = Roboto( {
+  weight: ["100", '300', '400', '500', '700', '900'],
+  subsets: ['latin'],
+  display: 'swap',
+} );
 
 export const metadata = {
   title: "ShopEase",
@@ -15,7 +19,7 @@ export const metadata = {
 export default function RootLayout( { children } ) {
   return (
     <html lang="en">
-      <body className={ `${inter.className} overflow-hidden` }>
+      <body className={ `${roboto.className}` }>
         <ReduxProvider>
           <Navbar />
           <div className='md:hidden'>
