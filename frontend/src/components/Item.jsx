@@ -2,8 +2,8 @@ import Image from 'next/image';
 
 const Item = ( { name, image, old_price, new_price } ) => {
   return (
-    <div className='w-[300px] lg:w-[300px]  h-[500px] '>
-      <div className='w-[300px]  lg:w-[300px] '>
+    <div className='w-[300px] lg:w-[320px]  h-[500px] '>
+      <div className='w-[300px]  lg:w-[320px] '>
         <Image src={ image } alt={ name } className='h-[380px]' />
       </div>
       <div className="flex flex-col">
