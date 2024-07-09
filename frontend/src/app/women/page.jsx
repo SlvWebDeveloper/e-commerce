@@ -21,7 +21,7 @@ const page = () => {
           </button>
         </div>
       </div>
-      <div className='mx-auto flex flex-col md:flex-row flex-wrap gap-3 justify-between items-center my-10'>
+      <div className='mx-auto flex flex-col md:flex-row flex-wrap gap-3 items-center my-10'>
         {
           all_product.map( ( el ) => {
             if ( el.category === "women" ) {
