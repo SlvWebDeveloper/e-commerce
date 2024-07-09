@@ -26,7 +26,7 @@ const BannerNewCollections = () => {
 
         {/* banner section right */ }
         <div className='flex-1 hidden lg:flex justify-center items-center'>
-          <Image src={ hero_image } width={ 600 } />
+          <Image src={ hero_image } width={ 500 } />
         </div>
 
       </div>

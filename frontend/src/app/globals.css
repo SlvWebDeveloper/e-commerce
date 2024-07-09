@@ -61,3 +61,30 @@
   transform: scale(1.02);
   transition: transform 200ms ease;
 }
+
+.login-page-gradient {
+  background: rgb(255, 255, 255);
+  background: radial-gradient(circle, rgba(255, 255, 255, 1) 0%, rgba(252, 189, 226, 1) 50%);
+}
+
+.promo-code-show {
+  height: 40px;
+  transition: height 200ms ease-in;
+  transition-delay: 2ms;
+  transition-property: opacity;
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+  margin-top: 12px;
+}
+
+.promo-code-hidden {
+  height: 0;
+  opacity: 0;
+  visibility: hidden;
+  transition: height 200ms ease-in;
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+  margin-top: 12px;
+}

@@ -25,7 +25,7 @@ const page = () => {
         {
           all_product.map( ( el ) => {
             if ( el.category === "women" ) {
-              return <Link href={ "#" } key={ el.id } className='link-hover'>
+              return <Link href={ `/product/${el.id}` } key={ el.id } className='link-hover'>
                 <Item { ...el } />
               </Link>;
             }
